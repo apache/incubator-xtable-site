@@ -4,7 +4,7 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Sun, 10 Mar 2024 08:59:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 Mar 2024 09:18:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
             <link>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</link>
             <guid>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</guid>
-            <pubDate>Sun, 10 Mar 2024 08:59:46 GMT</pubDate>
+            <pubDate>Fri, 15 Mar 2024 09:18:58 GMT</pubDate>
             <description><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></description>
             <content:encoded><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
 <a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
