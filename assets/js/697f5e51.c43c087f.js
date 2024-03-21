@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[4018],{9515:s=>{s.exports=JSON.parse('{"label":"minio","permalink":"/blog/tags/minio","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
