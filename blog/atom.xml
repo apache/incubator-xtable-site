@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xtable.apache.org/blog</id>
     <title>Apache XTable™ (Incubating) Blog</title>
-    <updated>2024-03-21T00:41:08.000Z</updated>
+    <updated>2024-03-21T00:49:16.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xtable.apache.org/blog"/>
     <subtitle>Apache XTable™ (Incubating) Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
         <id>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</id>
         <link href="https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable"/>
-        <updated>2024-03-21T00:41:08.000Z</updated>
+        <updated>2024-03-21T00:49:16.000Z</updated>
         <summary type="html"><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></summary>
         <content type="html"><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
 <a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
@@ -63,6 +63,24 @@ to keep up with the latest updates!</p>]]></content>
         </author>
         <category label="apache xtable" term="apache xtable"/>
         <category label="community" term="community"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[E-commerce Funnel Analysis with StarRocks: 87 Million Records, Apache Hudi, Apache Iceberg, Delta Lake (MinIO, Apache HMS, Apache XTable)]]></title>
+        <id>https://xtable.apache.org/blog/ecommerce-funnel-analysis-with-starrocks</id>
+        <link href="https://xtable.apache.org/blog/ecommerce-funnel-analysis-with-starrocks"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
+        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://atwong.medium.com/e-commerce-funnel-analysis-with-starrocks-87-million-records-apache-hudi-apache-iceberg-delta-ebf0923c149a">here</a></span>]]></content>
+        <author>
+            <name>Albert Wong</name>
+        </author>
+        <category label="onetable" term="onetable"/>
+        <category label="interoperability" term="interoperability"/>
+        <category label="hudi" term="hudi"/>
+        <category label="delta" term="delta"/>
+        <category label="iceberg" term="iceberg"/>
+        <category label="starrocks" term="starrocks"/>
+        <category label="minio" term="minio"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[OneTable: A Catalyst for an Open and Interoperable Lakehouse]]></title>
@@ -166,24 +184,6 @@ to keep up with the latest updates!</p>]]></content>
         <category label="hudi" term="hudi"/>
         <category label="delta" term="delta"/>
         <category label="iceberg" term="iceberg"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[E-commerce Funnel Analysis with StarRocks: 87 Million Records, Apache Hudi, Apache Iceberg, Delta Lake (MinIO, Apache HMS, Apache xTable)]]></title>
-        <id>https://xtable.apache.org/blog/ecommerce-funnel-analysis-with-starrocks</id>
-        <link href="https://xtable.apache.org/blog/ecommerce-funnel-analysis-with-starrocks"/>
-        <updated>2023-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
-        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://atwong.medium.com/e-commerce-funnel-analysis-with-starrocks-87-million-records-apache-hudi-apache-iceberg-delta-ebf0923c149a">here</a></span>]]></content>
-        <author>
-            <name>Albert Wong</name>
-        </author>
-        <category label="onetable" term="onetable"/>
-        <category label="interoperability" term="interoperability"/>
-        <category label="hudi" term="hudi"/>
-        <category label="delta" term="delta"/>
-        <category label="iceberg" term="iceberg"/>
-        <category label="starrocks" term="starrocks"/>
-        <category label="minio" term="minio"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Announcing OneTable]]></title>
