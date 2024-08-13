@@ -4,7 +4,7 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Wed, 07 Aug 2024 18:06:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Aug 2024 16:41:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
             <link>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</link>
             <guid>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</guid>
-            <pubDate>Wed, 07 Aug 2024 18:06:20 GMT</pubDate>
+            <pubDate>Tue, 13 Aug 2024 16:41:53 GMT</pubDate>
             <description><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></description>
             <content:encoded><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
 <a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
@@ -61,6 +61,58 @@ the project. We are really excited about the future of Apache XTable™ and buil
 to keep up with the latest updates!</p>]]></content:encoded>
             <category>apache xtable</category>
             <category>community</category>
+        </item>
+        <item>
+            <title><![CDATA[Unity Catalog OSS with Hudi, Delta, Iceberg, and EMR + DuckDB]]></title>
+            <link>https://xtable.apache.org/blog/xtable-unity</link>
+            <guid>https://xtable.apache.org/blog/xtable-unity</guid>
+            <pubDate>Sun, 14 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://medium.com/@kywe665/unity-catalog-oss-with-hudi-delta-iceberg-and-emr-duckdb-710ab8f8a7dc">here</a></span>]]></content:encoded>
+            <category>xtable</category>
+            <category>Unity Catalog</category>
+            <category>hudi</category>
+            <category>delta</category>
+            <category>iceberg</category>
+        </item>
+        <item>
+            <title><![CDATA[Run Apache XTable on Amazon MWAA to translate open table formats]]></title>
+            <link>https://xtable.apache.org/blog/aws-mwaa</link>
+            <guid>https://xtable.apache.org/blog/aws-mwaa</guid>
+            <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://aws.amazon.com/blogs/big-data/run-apache-xtable-on-amazon-mwaa-to-translate-open-table-formats/">here</a></span>]]></content:encoded>
+            <category>xtable</category>
+            <category>interoperability</category>
+            <category>airflow</category>
+            <category>delta</category>
+            <category>iceberg</category>
+            <category>Amazon MWAA</category>
+        </item>
+        <item>
+            <title><![CDATA[Using Apache Hudi & Iceberg tables in Databricks with Apache XTable]]></title>
+            <link>https://xtable.apache.org/blog/xtable-databricks</link>
+            <guid>https://xtable.apache.org/blog/xtable-databricks</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://dipankar-tnt.medium.com/using-apache-hudi-iceberg-tables-in-databricks-with-apache-xtable-253f411be637">here</a></span>]]></content:encoded>
+            <category>databricks</category>
+            <category>interoperability</category>
+            <category>hudi</category>
+            <category>delta</category>
+            <category>iceberg</category>
+        </item>
+        <item>
+            <title><![CDATA[Using XTable to translate from Iceberg to Hudi & Delta Lake with a File System Catalog like S3]]></title>
+            <link>https://xtable.apache.org/blog/xtable-iceberg-fs-catalog</link>
+            <guid>https://xtable.apache.org/blog/xtable-iceberg-fs-catalog</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://dipankar-tnt.medium.com/using-xtable-to-translate-from-iceberg-to-hudi-delta-lake-with-a-file-system-catalog-like-s3-4b72653836f8">here</a></span>]]></content:encoded>
+            <category>s3</category>
+            <category>iceberg</category>
+            <category>hudi</category>
+            <category>delta</category>
         </item>
         <item>
             <title><![CDATA[E-commerce Funnel Analysis with StarRocks: 87 Million Records, Apache Hudi, Apache Iceberg, Delta Lake (MinIO, Apache HMS, Apache XTable)]]></title>
