@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xtable.apache.org/blog</id>
     <title>Apache XTable™ (Incubating) Blog</title>
-    <updated>2024-11-19T04:11:44.000Z</updated>
+    <updated>2024-11-27T19:30:11.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xtable.apache.org/blog"/>
     <subtitle>Apache XTable™ (Incubating) Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
         <id>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</id>
         <link href="https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable"/>
-        <updated>2024-11-19T04:11:44.000Z</updated>
+        <updated>2024-11-27T19:30:11.000Z</updated>
         <summary type="html"><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></summary>
         <content type="html"><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
 <a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
@@ -63,6 +63,40 @@ to keep up with the latest updates!</p>]]></content>
         </author>
         <category label="apache xtable" term="apache xtable"/>
         <category label="community" term="community"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sync Tables in Hudi|Delta|Iceberg with XTable and AWS Lambda: Automate, Schedule, or Trigger On-Demand]]></title>
+        <id>https://xtable.apache.org/blog/soumil_sync</id>
+        <link href="https://xtable.apache.org/blog/soumil_sync"/>
+        <updated>2024-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
+        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.linkedin.com/pulse/sync-tables-all-three-formatshudideltaiceberg-xtable-aws-soumil-shah-3znxf/?trackingId=kU48ZQ7XTi2whOMw0tuHIg%3D%3D">here</a></span>]]></content>
+        <author>
+            <name>Soumil Shah</name>
+        </author>
+        <category label="xtable" term="xtable"/>
+        <category label="interoperability" term="interoperability"/>
+        <category label="hudi" term="hudi"/>
+        <category label="iceberg" term="iceberg"/>
+        <category label="delta" term="delta"/>
+        <category label="AWS" term="AWS"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Store and access your Iceberg data in OneLake using Snowflake and shortcuts (via Apache XTable)]]></title>
+        <id>https://xtable.apache.org/blog/microsoft_fabric</id>
+        <link href="https://xtable.apache.org/blog/microsoft_fabric"/>
+        <updated>2024-11-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
+        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://blog.fabric.microsoft.com/en-us/blog/store-and-use-your-snowflake-iceberg-data-in-onelake?ft=All">here</a></span>]]></content>
+        <author>
+            <name>Matthew Hicks</name>
+        </author>
+        <category label="xtable" term="xtable"/>
+        <category label="interoperability" term="interoperability"/>
+        <category label="iceberg" term="iceberg"/>
+        <category label="delta" term="delta"/>
+        <category label="Microsoft Fabric" term="Microsoft Fabric"/>
+        <category label="Snowflake" term="Snowflake"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Unity Catalog OSS with Hudi, Delta, Iceberg, and EMR + DuckDB]]></title>

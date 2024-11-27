@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[4573],{2588:e=>{e.exports=JSON.parse('{"label":"interoperability","permalink":"/blog/tags/interoperability","allTagsPath":"/blog/tags","count":13,"unlisted":false}')}}]);

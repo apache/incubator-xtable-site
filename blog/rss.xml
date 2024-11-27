@@ -4,7 +4,7 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Tue, 19 Nov 2024 04:11:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 19:30:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
             <link>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</link>
             <guid>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</guid>
-            <pubDate>Tue, 19 Nov 2024 04:11:44 GMT</pubDate>
+            <pubDate>Wed, 27 Nov 2024 19:30:11 GMT</pubDate>
             <description><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></description>
             <content:encoded><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
 <a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
@@ -61,6 +61,34 @@ the project. We are really excited about the future of Apache XTable™ and buil
 to keep up with the latest updates!</p>]]></content:encoded>
             <category>apache xtable</category>
             <category>community</category>
+        </item>
+        <item>
+            <title><![CDATA[Sync Tables in Hudi|Delta|Iceberg with XTable and AWS Lambda: Automate, Schedule, or Trigger On-Demand]]></title>
+            <link>https://xtable.apache.org/blog/soumil_sync</link>
+            <guid>https://xtable.apache.org/blog/soumil_sync</guid>
+            <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.linkedin.com/pulse/sync-tables-all-three-formatshudideltaiceberg-xtable-aws-soumil-shah-3znxf/?trackingId=kU48ZQ7XTi2whOMw0tuHIg%3D%3D">here</a></span>]]></content:encoded>
+            <category>xtable</category>
+            <category>interoperability</category>
+            <category>hudi</category>
+            <category>iceberg</category>
+            <category>delta</category>
+            <category>AWS</category>
+        </item>
+        <item>
+            <title><![CDATA[Store and access your Iceberg data in OneLake using Snowflake and shortcuts (via Apache XTable)]]></title>
+            <link>https://xtable.apache.org/blog/microsoft_fabric</link>
+            <guid>https://xtable.apache.org/blog/microsoft_fabric</guid>
+            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://blog.fabric.microsoft.com/en-us/blog/store-and-use-your-snowflake-iceberg-data-in-onelake?ft=All">here</a></span>]]></content:encoded>
+            <category>xtable</category>
+            <category>interoperability</category>
+            <category>iceberg</category>
+            <category>delta</category>
+            <category>Microsoft Fabric</category>
+            <category>Snowflake</category>
         </item>
         <item>
             <title><![CDATA[Unity Catalog OSS with Hudi, Delta, Iceberg, and EMR + DuckDB]]></title>

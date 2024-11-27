@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[4662],{5664:s=>{s.exports=JSON.parse('{"label":"Microsoft Fabric","permalink":"/blog/tags/microsoft-fabric","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
