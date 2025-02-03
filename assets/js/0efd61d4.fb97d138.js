@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[6116],{183:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/interoperability/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/blog/tags/interoperability","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

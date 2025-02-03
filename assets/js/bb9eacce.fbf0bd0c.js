@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[9206],{5612:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/iceberg/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/blog/tags/iceberg","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

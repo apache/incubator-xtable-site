@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[285],{7588:e=>{e.exports=JSON.parse('{"label":"delta","permalink":"/blog/tags/delta","allTagsPath":"/blog/tags","count":12,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[8656],{382:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/delta","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/blog/tags/delta/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

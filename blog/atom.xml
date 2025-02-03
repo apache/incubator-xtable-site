@@ -2,67 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xtable.apache.org/blog</id>
     <title>Apache XTable™ (Incubating) Blog</title>
-    <updated>2025-01-27T18:34:26.000Z</updated>
+    <updated>2024-11-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xtable.apache.org/blog"/>
     <subtitle>Apache XTable™ (Incubating) Blog</subtitle>
     <icon>https://xtable.apache.org/images/xtable-favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
-        <id>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</id>
-        <link href="https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable"/>
-        <updated>2025-01-27T18:34:26.000Z</updated>
-        <summary type="html"><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></summary>
-        <content type="html"><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
-<a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
-This 'openness' supports using the right compute engine for the right workload in a cost-efficient way. While this
-flexibility has been rewarding, navigating the decision to select a single table format has unfolded as a new challenge.
-OneTable, an open-source project <a href="https://venturebeat.com/data-infrastructure/exclusive-microsoft-and-google-join-forces-on-onetable-an-open-source-solution-for-data-lake-challenges/" target="_blank" rel="noopener noreferrer">released last year</a>,
-targets <em>'interoperability'</em> among different lakehouse table formats. By being a lightweight translation layer,
-OneTable allows users to seamlessly translate metadata between the source and target table formats, without the need to
-rewrite or duplicate the actual data files.</p>
-<img src="https://xtable.apache.org/images/blog/XTable/xtable-github.png" alt="drawing" style="width:80%;display:block;margin-left:auto;margin-right:auto;margin-top:18pt;margin-bottom:18pt">
-<p>The goal of OneTable was to anchor its success in neutrality, guided by strong community values. From the very beginning,
-the project<a href="https://cwiki.apache.org/confluence/display/INCUBATOR/XTable+Proposal" target="_blank" rel="noopener noreferrer"> expressed its desire</a> to be incubated
-under the <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache Software Foundation</a>. Today, we are excited to announce that OneTable has been
-accepted as an incubating project by Apache and will henceforth be known as <strong>Apache XTable™</strong>. As part of the incubation,
-the project has transitioned the code repository to the Apache infrastructure and adopted the
-<a href="https://community.apache.org/" target="_blank" rel="noopener noreferrer">community-driven development principles</a> of the Apache Foundation.</p>
-<p>While XTable is in its early phases, it has quickly been gaining significant momentum within the lakehouse community.
-The project has already garnered over <a href="https://x.com/apachextable/status/1725247462280196465?s=20" target="_blank" rel="noopener noreferrer">560 GitHub stars</a>,
-more than 1000 clones and 70 forks, indicating a rapidly
-<a href="https://x.com/apachextable/status/1725685237215322294?s=20" target="_blank" rel="noopener noreferrer">growing interest</a>. Additionally, XTable has a diverse set
-of contributors from organizations such as Microsoft, Onehouse, Google, Walmart, Adobe, Cloudera, and Dremio. With the
-Apache incubation, we are also looking forward to connecting with more contributors who have similar interests in this space.</p>
-<p>Incubating XTable at the Apache Software Foundation (ASF) signifies more than just the technical evolution of a project;
-it's a step towards fostering a vibrant community around it. This milestone is exciting for several reasons. Firstly,
-the ASF's incubation process is renowned for its emphasis on community development and open governance, aligning
-perfectly with our vision for XTable. By embracing the Apache way, we're not just contributing code; we're building a
-foundation for a project that's open, inclusive, and sustainable. The incubation phase will equip XTable with the
-mentoring and services necessary to thrive as a Top Level Project (TLP), ensuring it benefits from the ASF's vendor-neutral
-environment.</p>
-<p>This environment encourages innovation, collaboration, and the sharing of ideas, making it an ideal breeding ground for
-XTable to grow. Moreover, the ASF's global reach and reputation will enhance XTable's visibility and adoption, creating
-new opportunities for collaboration with other projects and communities. We're excited about the journey ahead and the
-potential for XTable to become a key part of the ASF ecosystem, contributing to its mission of providing software for
-the public good.</p>
-<img src="https://xtable.apache.org/images/blog/XTable/xtable-docs.png" alt="drawing" style="width:80%;display:block;margin-left:auto;margin-right:auto;margin-top:18pt;margin-bottom:18pt">
-<p>For those interested in exploring Apache XTable™, the official website is a good starting point. The documentation
-section hosts a great hands-on <a href="https://xtable.apache.org/docs/how-to" target="_blank" rel="noopener noreferrer">quickstart</a> guide to getting acquainted with XTable,
-providing a straightforward way to experience its interoperability capabilities firsthand. If you have specific ideas,
-questions, or seek direct interaction, the <a href="https://github.com/apache/incubator-xtable/discussions" target="_blank" rel="noopener noreferrer">discussions</a> section
-is available for more in-depth exchanges. We invite you to contribute to the project by submitting pull requests or
-filling issues to the <a href="https://github.com/apache/incubator-xtable" target="_blank" rel="noopener noreferrer">XTable GitHub repository</a>. Contributions in the early
-phase of the project are going to be critical as we build XTable together. Joining the
-<a href="mailto:dev-subscribe@xtable.apache.org" target="_blank" rel="noopener noreferrer">XTable mailing list</a> is another excellent way to stay informed and engage with
-the project. We are really excited about the future of Apache XTable™ and building it together with the vibrant data community.</p>
-<p>Follow Apache XTable™ on <a href="https://www.linkedin.com/company/apache-xtable/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://twitter.com/apachextable" target="_blank" rel="noopener noreferrer">Twitter</a>
-to keep up with the latest updates!</p>]]></content>
+        <title type="html"><![CDATA[Run Apache XTable in AWS Lambda for background conversion of open table formats]]></title>
+        <id>https://xtable.apache.org/blog/xtable-in-aws-lambda</id>
+        <link href="https://xtable.apache.org/blog/xtable-in-aws-lambda"/>
+        <updated>2024-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
+        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://aws.amazon.com/blogs/big-data/run-apache-xtable-in-aws-lambda-for-background-conversion-of-open-table-formats/">here</a></span>]]></content>
         <author>
-            <name>Dipankar Mazumdar, JB Onofré</name>
+            <name>Matthias Rudolph, Dipankar Mazumdar, and Stephen Said</name>
         </author>
-        <category label="apache xtable" term="apache xtable"/>
-        <category label="community" term="community"/>
+        <category label="xtable" term="xtable"/>
+        <category label="hudi" term="hudi"/>
+        <category label="delta" term="delta"/>
+        <category label="iceberg" term="iceberg"/>
+        <category label="aws lambda" term="aws lambda"/>
+        <category label="interoperability" term="interoperability"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sync Tables in Hudi|Delta|Iceberg with XTable and AWS Lambda: Automate, Schedule, or Trigger On-Demand]]></title>
@@ -161,6 +121,63 @@ to keep up with the latest updates!</p>]]></content>
         <category label="iceberg" term="iceberg"/>
         <category label="hudi" term="hudi"/>
         <category label="delta" term="delta"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OneTable is now “Apache XTable™ (Incubating)”]]></title>
+        <id>https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable</id>
+        <link href="https://xtable.apache.org/blog/OneTable-is-now-Apache-XTable"/>
+        <updated>2024-03-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Data Lakehouse table formats such as Apache Hudi, Delta Lake, and]]></summary>
+        <content type="html"><![CDATA[<p>Data Lakehouse table formats such as <a href="https://hudi.apache.org/" target="_blank" rel="noopener noreferrer">Apache Hudi</a>, <a href="https://delta.io/" target="_blank" rel="noopener noreferrer">Delta Lake</a>, and
+<a href="https://iceberg.apache.org/" target="_blank" rel="noopener noreferrer">Apache Iceberg</a> have enabled users to establish open foundations for their data architecture.
+This 'openness' supports using the right compute engine for the right workload in a cost-efficient way. While this
+flexibility has been rewarding, navigating the decision to select a single table format has unfolded as a new challenge.
+OneTable, an open-source project <a href="https://venturebeat.com/data-infrastructure/exclusive-microsoft-and-google-join-forces-on-onetable-an-open-source-solution-for-data-lake-challenges/" target="_blank" rel="noopener noreferrer">released last year</a>,
+targets <em>'interoperability'</em> among different lakehouse table formats. By being a lightweight translation layer,
+OneTable allows users to seamlessly translate metadata between the source and target table formats, without the need to
+rewrite or duplicate the actual data files.</p>
+<img src="https://xtable.apache.org/images/blog/XTable/xtable-github.png" alt="drawing" style="width:80%;display:block;margin-left:auto;margin-right:auto;margin-top:18pt;margin-bottom:18pt">
+<p>The goal of OneTable was to anchor its success in neutrality, guided by strong community values. From the very beginning,
+the project<a href="https://cwiki.apache.org/confluence/display/INCUBATOR/XTable+Proposal" target="_blank" rel="noopener noreferrer"> expressed its desire</a> to be incubated
+under the <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache Software Foundation</a>. Today, we are excited to announce that OneTable has been
+accepted as an incubating project by Apache and will henceforth be known as <strong>Apache XTable™</strong>. As part of the incubation,
+the project has transitioned the code repository to the Apache infrastructure and adopted the
+<a href="https://community.apache.org/" target="_blank" rel="noopener noreferrer">community-driven development principles</a> of the Apache Foundation.</p>
+<p>While XTable is in its early phases, it has quickly been gaining significant momentum within the lakehouse community.
+The project has already garnered over <a href="https://x.com/apachextable/status/1725247462280196465?s=20" target="_blank" rel="noopener noreferrer">560 GitHub stars</a>,
+more than 1000 clones and 70 forks, indicating a rapidly
+<a href="https://x.com/apachextable/status/1725685237215322294?s=20" target="_blank" rel="noopener noreferrer">growing interest</a>. Additionally, XTable has a diverse set
+of contributors from organizations such as Microsoft, Onehouse, Google, Walmart, Adobe, Cloudera, and Dremio. With the
+Apache incubation, we are also looking forward to connecting with more contributors who have similar interests in this space.</p>
+<p>Incubating XTable at the Apache Software Foundation (ASF) signifies more than just the technical evolution of a project;
+it's a step towards fostering a vibrant community around it. This milestone is exciting for several reasons. Firstly,
+the ASF's incubation process is renowned for its emphasis on community development and open governance, aligning
+perfectly with our vision for XTable. By embracing the Apache way, we're not just contributing code; we're building a
+foundation for a project that's open, inclusive, and sustainable. The incubation phase will equip XTable with the
+mentoring and services necessary to thrive as a Top Level Project (TLP), ensuring it benefits from the ASF's vendor-neutral
+environment.</p>
+<p>This environment encourages innovation, collaboration, and the sharing of ideas, making it an ideal breeding ground for
+XTable to grow. Moreover, the ASF's global reach and reputation will enhance XTable's visibility and adoption, creating
+new opportunities for collaboration with other projects and communities. We're excited about the journey ahead and the
+potential for XTable to become a key part of the ASF ecosystem, contributing to its mission of providing software for
+the public good.</p>
+<img src="https://xtable.apache.org/images/blog/XTable/xtable-docs.png" alt="drawing" style="width:80%;display:block;margin-left:auto;margin-right:auto;margin-top:18pt;margin-bottom:18pt">
+<p>For those interested in exploring Apache XTable™, the official website is a good starting point. The documentation
+section hosts a great hands-on <a href="https://xtable.apache.org/docs/how-to" target="_blank" rel="noopener noreferrer">quickstart</a> guide to getting acquainted with XTable,
+providing a straightforward way to experience its interoperability capabilities firsthand. If you have specific ideas,
+questions, or seek direct interaction, the <a href="https://github.com/apache/incubator-xtable/discussions" target="_blank" rel="noopener noreferrer">discussions</a> section
+is available for more in-depth exchanges. We invite you to contribute to the project by submitting pull requests or
+filling issues to the <a href="https://github.com/apache/incubator-xtable" target="_blank" rel="noopener noreferrer">XTable GitHub repository</a>. Contributions in the early
+phase of the project are going to be critical as we build XTable together. Joining the
+<a href="mailto:dev-subscribe@xtable.apache.org" target="_blank" rel="noopener noreferrer">XTable mailing list</a> is another excellent way to stay informed and engage with
+the project. We are really excited about the future of Apache XTable™ and building it together with the vibrant data community.</p>
+<p>Follow Apache XTable™ on <a href="https://www.linkedin.com/company/apache-xtable/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://twitter.com/apachextable" target="_blank" rel="noopener noreferrer">Twitter</a>
+to keep up with the latest updates!</p>]]></content>
+        <author>
+            <name>Dipankar Mazumdar, JB Onofré</name>
+        </author>
+        <category label="apache xtable" term="apache xtable"/>
+        <category label="community" term="community"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[E-commerce Funnel Analysis with StarRocks: 87 Million Records, Apache Hudi, Apache Iceberg, Delta Lake (MinIO, Apache HMS, Apache XTable)]]></title>
