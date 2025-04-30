@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[7812],{1472:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/hudi","page":1,"postsPerPage":10,"totalPages":2,"totalCount":13,"nextPage":"/blog/tags/hudi/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

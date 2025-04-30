@@ -4,10 +4,36 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Tue, 26 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache XTable: Advancing Data Interoperability in Data Lakehouses]]></title>
+            <link>https://xtable.apache.org/blog/ext-blog-minio</link>
+            <guid>https://xtable.apache.org/blog/ext-blog-minio</guid>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://blog.min.io/apache-xtable-advancing-data-interoperability-in-data-lakehouses/">here</a></span>]]></content:encoded>
+            <category>XTable</category>
+            <category>interoperability</category>
+            <category>hudi</category>
+            <category>delta</category>
+            <category>iceberg</category>
+        </item>
+        <item>
+            <title><![CDATA[Using Apache Hudi™ Data with Apache Iceberg™ and Delta Lake]]></title>
+            <link>https://xtable.apache.org/blog/ext-blog-oh</link>
+            <guid>https://xtable.apache.org/blog/ext-blog-oh</guid>
+            <pubDate>Thu, 13 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.onehouse.ai/blog/using-apache-hudi-data-with-apache-iceberg-and-delta-lake">here</a></span>]]></content:encoded>
+            <category>XTable</category>
+            <category>interoperability</category>
+            <category>hudi</category>
+            <category>delta</category>
+            <category>iceberg</category>
+        </item>
         <item>
             <title><![CDATA[Run Apache XTable in AWS Lambda for background conversion of open table formats]]></title>
             <link>https://xtable.apache.org/blog/xtable-in-aws-lambda</link>
@@ -49,6 +75,19 @@
             <category>delta</category>
             <category>Microsoft Fabric</category>
             <category>Snowflake</category>
+        </item>
+        <item>
+            <title><![CDATA[What is Apache XTable?]]></title>
+            <link>https://xtable.apache.org/blog/ext-blog-naren</link>
+            <guid>https://xtable.apache.org/blog/ext-blog-naren</guid>
+            <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://medium.com/@naren3883/apache-xtable-bc004bbd321c">here</a></span>]]></content:encoded>
+            <category>XTable</category>
+            <category>interoperability</category>
+            <category>hudi</category>
+            <category>delta</category>
+            <category>iceberg</category>
         </item>
         <item>
             <title><![CDATA[Unity Catalog OSS with Hudi, Delta, Iceberg, and EMR + DuckDB]]></title>
