@@ -4,10 +4,22 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Fri, 28 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing Multi-Catalog Sync in Apache XTable™ (incubating): Unlocking Catalog Interoperability]]></title>
+            <link>https://xtable.apache.org/blog/multi-cat-sync</link>
+            <guid>https://xtable.apache.org/blog/multi-cat-sync</guid>
+            <pubDate>Wed, 07 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redirecting... please wait!!]]></description>
+            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://medium.com/@dipankar-tnt/introducing-multi-catalog-sync-in-apache-xtable-incubating-unlocking-catalog-interoperability-8420f0f0223b">here</a></span>]]></content:encoded>
+            <category>apache xtable</category>
+            <category>catalog</category>
+            <category>AWS Glue</category>
+            <category>Hive Metastore</category>
+        </item>
         <item>
             <title><![CDATA[Apache XTable: Advancing Data Interoperability in Data Lakehouses]]></title>
             <link>https://xtable.apache.org/blog/ext-blog-minio</link>
@@ -286,19 +298,6 @@ to keep up with the latest updates!</p>]]></content:encoded>
             <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Redirecting... please wait!!]]></description>
             <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.onehouse.ai/blog/the-road-to-an-open-and-interoperable-lakehouse">here</a></span>]]></content:encoded>
-            <category>onetable</category>
-            <category>interoperability</category>
-            <category>hudi</category>
-            <category>delta</category>
-            <category>iceberg</category>
-        </item>
-        <item>
-            <title><![CDATA[Announcing OneTable]]></title>
-            <link>https://xtable.apache.org/blog/announcing-onetable</link>
-            <guid>https://xtable.apache.org/blog/announcing-onetable</guid>
-            <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Redirecting... please wait!!]]></description>
-            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.onehouse.ai/blog/onetable-hudi-delta-iceberg">here</a></span>]]></content:encoded>
             <category>onetable</category>
             <category>interoperability</category>
             <category>hudi</category>

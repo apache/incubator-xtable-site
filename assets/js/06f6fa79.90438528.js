@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[2918],{3400:e=>{e.exports=JSON.parse('{"label":"AWS Glue","permalink":"/blog/tags/aws-glue","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
