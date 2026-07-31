@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[8454],{5967(a){a.exports=JSON.parse('{"tag":{"label":"Amazon MWAA","permalink":"/blog/tags/amazon-mwaa","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/amazon-mwaa","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

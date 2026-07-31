@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[1865],{8564(a){a.exports=JSON.parse('{"tag":{"label":"apache xtable","permalink":"/blog/tags/apache-xtable","allTagsPath":"/blog/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/apache-xtable","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

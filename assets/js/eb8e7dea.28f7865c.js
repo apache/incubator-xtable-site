@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[1360],{5722(a){a.exports=JSON.parse('{"tag":{"label":"minio","permalink":"/blog/tags/minio","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/minio","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

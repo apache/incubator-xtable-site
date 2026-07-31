@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[6017],{866(a){a.exports=JSON.parse('{"tag":{"label":"AWS Glue","permalink":"/blog/tags/aws-glue","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/aws-glue","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

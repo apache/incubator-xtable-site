@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[6996],{889:a=>{a.exports=JSON.parse('{"label":"aws lambda","permalink":"/blog/tags/aws-lambda","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

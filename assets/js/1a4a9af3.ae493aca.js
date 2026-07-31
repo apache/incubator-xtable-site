@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[3396],{9718:e=>{e.exports=JSON.parse('{"label":"XTable","permalink":"/blog/tags/x-table","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);

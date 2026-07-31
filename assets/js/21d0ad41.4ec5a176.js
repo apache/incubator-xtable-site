@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[8618],{7254(a){a.exports=JSON.parse('{"tag":{"label":"Unity Catalog","permalink":"/blog/tags/unity-catalog","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/unity-catalog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

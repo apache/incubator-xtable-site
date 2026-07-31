@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[8414],{274(a){a.exports=JSON.parse('{"tag":{"label":"airflow","permalink":"/blog/tags/airflow","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/airflow","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
