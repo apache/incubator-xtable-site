@@ -4,10 +4,65 @@
         <title>Apache XTable™ (Incubating) Blog</title>
         <link>https://xtable.apache.org/blog</link>
         <description>Apache XTable™ (Incubating) Blog</description>
-        <lastBuildDate>Wed, 07 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache XTable™ (Incubating) 0.4.0 Release]]></title>
+            <link>https://xtable.apache.org/blog/apache-xtable-0.4.0-release</link>
+            <guid>https://xtable.apache.org/blog/apache-xtable-0.4.0-release</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache XTable™ (Incubating) 0.4.0 adds a Spark runtime jar, Apache Paimon and Apache Parquet sources, and Delta Kernel.]]></description>
+            <content:encoded><![CDATA[<p>We are pleased to announce the release of 0.4.0-incubating, which lands 45 commits from
+19 contributors.
+See the <a class="" href="https://xtable.apache.org/releases/release-0.4.0-incubating">release notes</a> for the complete list of changes.</p>
+<p>Apache XTable™ (Incubating) converts metadata between Apache Hudi, Apache Iceberg and Delta Lake
+without rewriting any data files. With this release it also supports Apache Paimon and Apache
+Parquet tables as sources.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="release-highlights">Release Highlights<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#release-highlights" class="hash-link" aria-label="Direct link to Release Highlights" title="Direct link to Release Highlights" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="spark-runtime">Spark runtime<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#spark-runtime" class="hash-link" aria-label="Direct link to Spark runtime" title="Direct link to Spark runtime" translate="no">​</a></h3>
+<p>A new runtime jar, <code>xtable-spark-runtime</code>, runs a sync on a Spark cluster you already have. Add it
+to an existing job with <code>--jars</code> and call <code>XTableSyncService</code> right after your write, or submit
+<code>XTableSparkSync</code> on its own with <code>spark-submit</code>.</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">$SPARK_HOME/bin/spark-submit \</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  --jars xtable-spark-runtime_2.12-0.4.0-incubating.jar \</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  --class com.example.OrdersJob \</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  orders-job.jar</span><br></div></code></pre></div></div>
+<p>Every engine dependency is <code>provided</code>, so the jar reuses the Hudi, Iceberg and Delta libraries
+already on your cluster. The jar supports Spark 3.4 and 3.5. See
+<a class="" href="https://xtable.apache.org/docs/how-to-spark-runtime">Run an XTable sync on Apache Spark</a> for the full guide.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="apache-paimon">Apache Paimon<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#apache-paimon" class="hash-link" aria-label="Direct link to Apache Paimon" title="Direct link to Apache Paimon" translate="no">​</a></h3>
+<p>A new conversion source reads Paimon tables, with incremental sync and column statistics.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="apache-parquet">Apache Parquet<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#apache-parquet" class="hash-link" aria-label="Direct link to Apache Parquet" title="Direct link to Apache Parquet" translate="no">​</a></h3>
+<p>A new conversion source reads Parquet tables, with schema conversion, column statistics, partition
+extraction and incremental sync.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="delta-kernel">Delta Kernel<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#delta-kernel" class="hash-link" aria-label="Direct link to Delta Kernel" title="Direct link to Delta Kernel" translate="no">​</a></h3>
+<p>A new conversion source and target read and write Delta tables through the <code>delta-kernel-api</code>
+library, and neither one needs a <code>SparkSession</code>. The older Delta source and target call <code>DeltaLog</code>
+and <code>OptimisticTransaction</code> from <code>delta-core</code>, which ties them to Spark.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-the-release">Getting the release<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#getting-the-release" class="hash-link" aria-label="Direct link to Getting the release" title="Direct link to Getting the release" translate="no">​</a></h2>
+<p>Download the source release, its signature and its checksum from the
+<a class="" href="https://xtable.apache.org/releases/downloads">Downloads</a> page. Always verify the signature before you use the release.</p>
+<p>The binary artifacts are on Maven Central under the <code>org.apache.xtable</code> group. For example, add the
+Spark runtime jar as <code>org.apache.xtable:xtable-spark-runtime_2.12:0.4.0-incubating</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-involved">Getting involved<a href="https://xtable.apache.org/blog/apache-xtable-0.4.0-release#getting-involved" class="hash-link" aria-label="Direct link to Getting involved" title="Direct link to Getting involved" translate="no">​</a></h2>
+<p>Apache XTable™ (Incubating) grows through its contributors. We track work in
+<a href="https://github.com/apache/incubator-xtable/issues" target="_blank" rel="noopener noreferrer" class="">GitHub issues</a> and we discuss it on the
+<a href="mailto:dev@xtable.apache.org" target="_blank" rel="noopener noreferrer" class="">dev mailing list</a>.</p>
+<p>The easiest way to start is to:</p>
+<ol>
+<li class="">Try 0.4.0-incubating on your own tables and tell us how it goes.</li>
+<li class="">Join the <a class="" href="https://xtable.apache.org/community/sync">community sync</a> and the dev mailing list.</li>
+<li class="">Pick up a <a href="https://github.com/apache/incubator-xtable/contribute" target="_blank" rel="noopener noreferrer" class="">good first issue</a>.</li>
+</ol>
+<p>For more information, visit the <a class="" href="https://xtable.apache.org/docs/setup">documentation</a> or the
+<a href="https://github.com/apache/incubator-xtable" target="_blank" rel="noopener noreferrer" class="">GitHub repository</a>. If you want to grow into a
+committer role, read <a class="" href="https://xtable.apache.org/community/becoming-a-committer">Becoming a committer</a>.</p>]]></content:encoded>
+            <category>apache xtable</category>
+            <category>release</category>
+            <category>spark</category>
+            <category>paimon</category>
+            <category>parquet</category>
+            <category>delta kernel</category>
+        </item>
         <item>
             <title><![CDATA[Introducing Multi-Catalog Sync in Apache XTable™ (incubating): Unlocking Catalog Interoperability]]></title>
             <link>https://xtable.apache.org/blog/multi-cat-sync</link>
@@ -290,19 +345,6 @@ to keep up with the latest updates!</p>]]></content:encoded>
             <category>onetable</category>
             <category>interoperability</category>
             <category>siliconangle</category>
-        </item>
-        <item>
-            <title><![CDATA[The Road to an Open and Interoperable Lakehouse]]></title>
-            <link>https://xtable.apache.org/blog/road-to-interoperable-lakehouse</link>
-            <guid>https://xtable.apache.org/blog/road-to-interoperable-lakehouse</guid>
-            <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Redirecting... please wait!!]]></description>
-            <content:encoded><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://www.onehouse.ai/blog/the-road-to-an-open-and-interoperable-lakehouse">here</a></span>]]></content:encoded>
-            <category>onetable</category>
-            <category>interoperability</category>
-            <category>hudi</category>
-            <category>delta</category>
-            <category>iceberg</category>
         </item>
     </channel>
 </rss>

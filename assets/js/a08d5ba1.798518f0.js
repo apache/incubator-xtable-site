@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite||=[]).push([[9147],{3851(l){l.exports=JSON.parse('{"tag":{"label":"delta kernel","permalink":"/blog/tags/delta-kernel","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/delta-kernel","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
