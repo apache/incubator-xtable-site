@@ -2,11 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xtable.apache.org/blog</id>
     <title>Apache XTable™ (Incubating) Blog</title>
-    <updated>2026-08-25T00:00:00.000Z</updated>
+    <updated>2026-11-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xtable.apache.org/blog"/>
     <subtitle>Apache XTable™ (Incubating) Blog</subtitle>
     <icon>https://xtable.apache.org/images/xtable-favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache XTable™ (Incubating) 0.5.0 Release]]></title>
+        <id>https://xtable.apache.org/blog/apache-xtable-0.5.0-release</id>
+        <link href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release"/>
+        <updated>2026-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache XTable™ (Incubating) 0.5.0 moves to Apache Hudi 1.2.1, adds a Hudi-backed secondary index for any source table, and fixes the license issues left open in 0.4.0.]]></summary>
+        <content type="html"><![CDATA[<p>We are pleased to announce the release of 0.5.0-incubating, which lands 79 commits from
+15 contributors.
+See the <a class="" href="https://xtable.apache.org/releases/release-0.5.0-incubating">release notes</a> for the complete list of changes.</p>
+<p>Apache XTable™ (Incubating) converts metadata between Apache Hudi, Apache Iceberg and Delta Lake
+without rewriting any data files. It also supports Apache Paimon and Apache Parquet tables as
+sources.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="release-highlights">Release Highlights<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#release-highlights" class="hash-link" aria-label="Direct link to Release Highlights" title="Direct link to Release Highlights" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="apache-hudi-1x">Apache Hudi 1.x<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#apache-hudi-1x" class="hash-link" aria-label="Direct link to Apache Hudi 1.x" title="Direct link to Apache Hudi 1.x" translate="no">​</a></h3>
+<p>XTable now builds against Apache Hudi 1.2.1, up from 0.14.0. The Hudi source and target support
+Hudi table version 9, and the Hudi target builds the column stats index for existing Hudi tables.</p>
+<p>A new module, <code>xtable-iceberg-pluggable-tf</code>, plugs into Hudi's pluggable table format. A Hudi writer
+with this module on its classpath commits Iceberg metadata alongside every Hudi commit, so the
+table stays readable as Iceberg without a separate sync.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="secondary-index-for-any-source-table">Secondary index for any source table<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#secondary-index-for-any-source-table" class="hash-link" aria-label="Direct link to Secondary index for any source table" title="Direct link to Secondary index for any source table" translate="no">​</a></h3>
+<p>The Hudi target can now build a Hudi record index and secondary index over the files it registers.
+This works for any source format that XTable reads, so an Iceberg or Delta table can get a
+secondary index too. The sync job builds the index and keeps it up to date.</p>
+<p>New Spark SQL extensions, shipped in <code>xtable-spark-runtime</code>, read that index. Once the extensions
+are configured, point lookups on Iceberg tables in Spark use the index without any change to the
+queries.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug fixes<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#bug-fixes" class="hash-link" aria-label="Direct link to Bug fixes" title="Direct link to Bug fixes" translate="no">​</a></h3>
+<p>This release fixes several bugs in the Delta, Hudi and Parquet conversions. Some highlights:</p>
+<ul>
+<li class="">Delta tables with column mapping enabled now convert with correct partition values, instead of
+null ones.</li>
+<li class="">Delta data files outside the table base path keep their absolute paths.</li>
+<li class="">A Hudi CLEAN that runs before an incremental sync no longer leaves deleted files in the target.</li>
+<li class="">Parquet source files now report their record counts.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="packaging-and-licensing">Packaging and licensing<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#packaging-and-licensing" class="hash-link" aria-label="Direct link to Packaging and licensing" title="Direct link to Packaging and licensing" translate="no">​</a></h3>
+<p>The license issues listed as known issues in 0.4.0 are fixed. Every bundled jar now carries
+complete license metadata for its shaded dependencies, and the build checks it. The
+<code>xtable-utilities</code> bundled jar also shrank from 1.1 GB to 423 MB, and it now includes Iceberg's
+<code>GlueCatalog</code> and <code>S3FileIO</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-the-release">Getting the release<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#getting-the-release" class="hash-link" aria-label="Direct link to Getting the release" title="Direct link to Getting the release" translate="no">​</a></h2>
+<p>Download the source release, its signature and its checksum from the
+<a class="" href="https://xtable.apache.org/releases/downloads">Downloads</a> page. Always verify the signature before you use the release.</p>
+<p>The binary artifacts are on Maven Central under the <code>org.apache.xtable</code> group. For example, add the
+Spark runtime jar as <code>org.apache.xtable:xtable-spark-runtime_2.12:0.5.0-incubating</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-involved">Getting involved<a href="https://xtable.apache.org/blog/apache-xtable-0.5.0-release#getting-involved" class="hash-link" aria-label="Direct link to Getting involved" title="Direct link to Getting involved" translate="no">​</a></h2>
+<p>Apache XTable™ (Incubating) grows through its contributors. We track work in
+<a href="https://github.com/apache/incubator-xtable/issues" target="_blank" rel="noopener noreferrer" class="">GitHub issues</a> and we discuss it on the
+<a href="mailto:dev@xtable.apache.org" target="_blank" rel="noopener noreferrer" class="">dev mailing list</a>.</p>
+<p>The easiest way to start is to:</p>
+<ol>
+<li class="">Try 0.5.0-incubating on your own tables and tell us how it goes.</li>
+<li class="">Join the <a class="" href="https://xtable.apache.org/community/sync">community sync</a> and the dev mailing list.</li>
+<li class="">Pick up a <a href="https://github.com/apache/incubator-xtable/contribute" target="_blank" rel="noopener noreferrer" class="">good first issue</a>.</li>
+</ol>]]></content>
+        <author>
+            <name>Apache XTable Community</name>
+        </author>
+        <category label="apache xtable" term="apache xtable"/>
+        <category label="release" term="release"/>
+        <category label="hudi" term="hudi"/>
+        <category label="iceberg" term="iceberg"/>
+        <category label="secondary index" term="secondary index"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache XTable™ (Incubating) 0.4.0 Release]]></title>
         <id>https://xtable.apache.org/blog/apache-xtable-0.4.0-release</id>
@@ -390,19 +454,5 @@ to keep up with the latest updates!</p>]]></content>
         <category label="hudi" term="hudi"/>
         <category label="delta" term="delta"/>
         <category label="iceberg" term="iceberg"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Onehouse open-sources OneTable with support from Google and Microsoft]]></title>
-        <id>https://xtable.apache.org/blog/siliconangle-onetable</id>
-        <link href="https://xtable.apache.org/blog/siliconangle-onetable"/>
-        <updated>2023-11-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Redirecting... please wait!!]]></summary>
-        <content type="html"><![CDATA[<span>Redirecting... please wait!! <!-- -->or click <a href="https://siliconangle.com/2023/11/15/onehouse-open-sources-onetable-data-tool-support-google-microsoft/">here</a></span>]]></content>
-        <author>
-            <name>Maria Deutscher</name>
-        </author>
-        <category label="onetable" term="onetable"/>
-        <category label="interoperability" term="interoperability"/>
-        <category label="siliconangle" term="siliconangle"/>
     </entry>
 </feed>
